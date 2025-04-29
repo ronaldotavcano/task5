@@ -3,3 +3,48 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --yellow: #FFCD1E;
+    --dark-blue:#06B6D4;
+    --light-blue: #67E8F9;
+    --dark-pink:#DB2777;
+    --light-pink:#F472B6;
+    --dreen:#16A34A;
+
+    --text: #000000;
+    --background:#FAFAFA;
+
+    --ff-base: "Montserrat", sans-serif;
+    --text-sm: 0.875rem;
+    --text-base: 1.75rem;
+    --text-lg: 2.5rem;
+    --text-xlg: 4rem;
+}
+
+html button{
+    font: 500 1rem/1.5 var(--ff-base);
+}
+
+h1,h2 {
+    font-family: 'Syne', sans-serif;
+}
+
+h1{
+    font-size: var(--text-xlg);
+    line-height: 1.25;
+}
+
+h2{
+    font-size: var(--text-lg);
+    line-height: 1.2;
+}
+
+@media (width <= 80em){
+    :root{
+        --text-sm: 0.875rem;
+        --text-base: 1rem;
+        --text-lg: 1.75rem;
+        --text-xlg: 2.5rem;
+    }
+}
