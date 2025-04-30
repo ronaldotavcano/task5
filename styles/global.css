@@ -32,7 +32,7 @@ h1,h2 {
 
 h1{
     font-size: var(--text-xlg);
-    line-height: 1.25;
+    line-height: 1.5;
 }
 
 h2{
